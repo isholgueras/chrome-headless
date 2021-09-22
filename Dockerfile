@@ -34,6 +34,7 @@ CMD [ \
 "--disable-extensions", \
 # Disable the GPU hardware acceleration
 "--disable-gpu", \
+"--disable-software-rasterizer", \
 # Disable syncing to a Google account
 "--disable-sync", \
 # Disable built-in Google Translate service
