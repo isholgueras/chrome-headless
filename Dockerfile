@@ -33,7 +33,6 @@ CMD [ \
 # Disable all chrome extensions entirely
 "--disable-extensions", \
 # Disable the GPU hardware acceleration
-"--disable-gpu", \
 "--disable-software-rasterizer", \
 # Disable syncing to a Google account
 "--disable-sync", \
