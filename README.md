@@ -22,7 +22,7 @@ Open Chrome and browse to `http://localhost:9222/`.
 ## Using In DevTools
 Open Chrome and browse to `http://localhost:9222/`.
 
-#Known issues
+# Known issues
 
 ## Unsafe Scripts
 You may have to _Load unsafe scripts_ from the omnibox shield icon to allow connecting to the insecure websocket endpoint `ws://localhost:9222`:
@@ -39,6 +39,10 @@ In most cases, these messages can be safely ignored. They will sometimes change 
 
 ## Building and Pushing
 
-To build, `./build.sh <tag>`, for example ./build.sh justinbeiro/chrome-headless:20211007-chromium
+To build, `./build.sh <tag>`, for example `./build.sh isholgueras/chrome-headless:20211007-chromium`
 
-To push, `./build.sh <tag>`, for example `./push.sh justinbeiro/chrome-headless:20211007-chromium`. This will push both amd64 and arm64 images.
+To push, `./build.sh <tag>`, for example `./push.sh isholgueras/chrome-headless:20211007-chromium`. This will push both amd64 and arm64 images.
+
+# Compatibility
+
+This image was updated to chromium to support the new M1 processors. If you prefer keep using the previous chrome version, feel free to use the [:chrome tag](https://hub.docker.com/layers/183734006/isholgueras/chrome-headless/20210922-chrome/images/sha256-4d46c60494d5d34e542fa68b46bf8b1fe8c5653bf45025260d4b7cc582d0ee49)
